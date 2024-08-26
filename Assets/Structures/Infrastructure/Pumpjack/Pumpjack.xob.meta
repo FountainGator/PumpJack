@@ -1,0 +1,124 @@
+MetaFileClass {
+ Name "{88CF8EAD884ACE66}Assets/Structures/Infrastructure/Pumpjack/Pumpjack.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   GenerateDefaultProfile 1
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{6235232104A9A832}" {
+     SourceMaterial "grey"
+     AssignedMaterial "{3562105D068D743F}Assets/Structures/Infrastructure/Pumpjack/Data/grey.emat"
+    }
+    MaterialAssignClass "{6235232104A9A821}" {
+     SourceMaterial "orange"
+     AssignedMaterial "{4819A53DD963284A}Assets/Structures/Infrastructure/Pumpjack/Data/orange.emat"
+    }
+    MaterialAssignClass "{6235232104A9A825}" {
+     SourceMaterial "orangetips"
+     AssignedMaterial "{3F16B3E43EAED42B}Assets/Structures/Infrastructure/Pumpjack/Data/orangetips.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Mainbody {
+    }
+    MeshParam Pump {
+    }
+    MeshParam counterweight {
+    }
+    MeshParam pipes {
+    }
+    MeshParam pumpconnector {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_MAINCOL_01 {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_MAINCOL_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{469B8DA92D8109EC}Common/Materials/Game/Metal/metal_10mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_MAINCOL_02 {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_MAINCOL_03 {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_MAINCOL_04 {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_MAINCOL_05 {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_MAINCOL_06 {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_MAINCOL_07 {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6235232104310071}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6235232104313293}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6235232104313233}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6235232104312D9A}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6235232104312DC6}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6235232104312D04}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

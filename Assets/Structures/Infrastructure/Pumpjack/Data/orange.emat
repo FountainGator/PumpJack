@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{268361AD54AB1D73}Assets/Structures/Infrastructure/Pumpjack/Data/orange_BCR.edds"
+ NMOMap "{1E5BDA3F8DDC4FED}Assets/Structures/Infrastructure/Pumpjack/Data/orange_NMO.edds"
+}

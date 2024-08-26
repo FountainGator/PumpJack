@@ -1,0 +1,36 @@
+GenericEntity {
+ ID "623523200295C72B"
+ components {
+  SignalsManagerComponent "{623523200FC48FEB}" {
+  }
+  MeshObject "{62352320EB14CE3A}" {
+   Object "{88CF8EAD884ACE66}Assets/Structures/Infrastructure/Pumpjack/Pumpjack.xob"
+  }
+  RigidBody "{623523200509E907}" {
+   ModelGeometry 1
+   Static 1
+  }
+  ActionsManagerComponent "{62352320121A2F7A}" {
+  }
+  AnimationPlayerComponent "{6235232999D332F9}" {
+   Animation "{1A847758E80EFC32}Assets/Structures/Infrastructure/Pumpjack/anm/PUMP5s.anm"
+   Speed 0.22
+   Loop 1
+   AutoPlay 1
+  }
+  RplComponent "{6235232016F611DC}" {
+  }
+  SoundComponent "{62352328EEB2C6D6}" {
+   Filenames {
+    "{03DDBF4ACA39FDF2}Sounds/Structures/Military/Radar/Structures_ApproachRadar_Generator.acp"
+   }
+   IncludeInactive 1
+   SoundPoints {
+    SoundPointInfo sound {
+     Offset 0.9668 1.7534 0
+    }
+   }
+  }
+ }
+ coords 1548.549 39 2830.699
+}

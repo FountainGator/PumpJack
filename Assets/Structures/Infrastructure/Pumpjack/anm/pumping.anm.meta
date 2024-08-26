@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{25CECA18EB8E3B8D}Assets/Structures/Infrastructure/Pumpjack/anm/pumping.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

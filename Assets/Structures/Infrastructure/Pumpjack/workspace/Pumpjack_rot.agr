@@ -1,0 +1,10 @@
+AnimSrcGraph {
+ AnimSetTemplate "{CC0701B847250369}Assets/Structures/Infrastructure/Pumpjack/workspace/Pumpjack_rot.ast"
+ ControlTemplate AnimSrcGCT "{623523206AECD488}" {
+ }
+ Debug AnimSrcGD "{623523206AECD4BB}" {
+ }
+ GraphFilesResourceNames {
+  "{F1FB7902EE43BEAA}Assets/Structures/Infrastructure/Pumpjack/workspace/Pumpjack_rot.agf"
+ }
+}

@@ -1,0 +1,65 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 1
+ $node "Scene_Root" {
+  $keys t q {
+   $frame 0 1 {
+   }
+  }
+  $node "Armature" {
+   $keys q {
+    $frame 0 1 {
+    }
+   }
+   $node "pump_arm_anchor" {
+    $keys q {
+     $frame 0 1 {
+      #q 0.00000014 0.70710683 -0.70710671 0.00000014
+     }
+    }
+   }
+   $node "pump_arm" {
+    $keys q {
+     $frame 0 1 {
+      #q 0.42546844 0.56478035 0.56478029 0.42546803
+     }
+    }
+    $node "pump_arm_connector" {
+     $keys q {
+      $frame 0 1 {
+       #q -0.00000063 -0.79448456 0.00000018 0.60728449
+      }
+     }
+    }
+   }
+   $node "root" {
+    $keys q {
+     $frame 0 1 {
+     }
+    }
+   }
+   $node "pump_arm_rotator" {
+    $keys q {
+     $frame 0 1 {
+      #q 0.45642391 0.54007161 -0.54007155 -0.45642391
+     }
+    }
+    $node "Bone.006" {
+     $keys q {
+      $frame 0 1 {
+       #q -0.00000006 -0.00000001 0.00000001 -1.00000012
+      }
+     }
+    }
+   }
+   $node "Bone.001" {
+    $keys q {
+     $frame 0 1 {
+      #q 0.70710683 0 0 0.70710683
+     }
+    }
+   }
+  }
+ }
+}

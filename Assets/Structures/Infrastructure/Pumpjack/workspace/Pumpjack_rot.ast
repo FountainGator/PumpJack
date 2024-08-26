@@ -1,0 +1,13 @@
+AnimSetTemplateSource {
+ Groups {
+  AnimSetTemplateSource_AnimationGroup "{6235232238F2DDD2}" {
+   Name "pump"
+   Animations {
+    "pumping"
+   }
+   Columns {
+    "pump_rot"
+   }
+  }
+ }
+}
